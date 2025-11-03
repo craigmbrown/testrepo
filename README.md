@@ -1,32 +1,46 @@
-# Thailand Demographic Transition Analysis
+# Social Studies Analysis Repository
 
-A comprehensive analysis of Thailand's position in the Demographic Transition Model using data from the U.S. Census International Data Base and other demographic sources.
+A comprehensive collection of analytical assignments exploring demographic transition, human rights, and global population trends.
 
-## Description
+## Projects
 
-This repository contains a formal CER (Claim-Evidence-Reasoning) analysis determining Thailand's demographic stage based on empirical evidence including birth rates, death rates, fertility rates, population growth, and age structure data.
+### 1. Thailand Demographic Transition Analysis
 
-## Files
+A formal CER (Claim-Evidence-Reasoning) analysis determining Thailand's demographic stage based on empirical evidence.
 
-- **`thailand_CER_completed.md`** - Final completed CER analysis (Stage 3 classification)
-- **`thailand_demographic_transition_CER.md`** - Original CER template
+**Files:**
+- **`thailand_stage3_concise_CER.md`** - Concise CER with 7-sentence paragraphs (Stage 3 classification)
+- **`thailand_CER_completed.md`** - Comprehensive CER analysis
+- **`why_thailand_is_stage_3.md`** - Detailed explanation of Stage 3 classification
 - **`thailand_demographic_data.md`** - Data collection template
-- **`thailand_actual_demographic_data.md`** - Research findings and actual demographic data
-- **`CER_completion_guide.md`** - Step-by-step guide for completing the CER
-- **`rubric_checklist.md`** - Detailed rubric for achieving excellent grades
+- **`CER_completion_guide.md`** - Step-by-step guide for completing CER
+- **`rubric_checklist.md`** - Rubric for achieving excellent grades
 
-## Key Findings
+**Key Findings:**
+- **Claim:** Thailand is in late Phase III of demographic transition
+- **Evidence:** Birth rate 9.4/1,000; death rate 8.7/1,000; TFR 1.0-1.45; population declining
 
-**Claim:** Thailand is in late Phase III of demographic transition, transitioning toward Phase IV.
+### 2. Universal Declaration of Human Rights (UDHR) Analysis
 
-**Supporting Evidence:**
-1. **Birth/Death Rates:** 9.4 per 1,000 (birth) vs 8.7 per 1,000 (death) - negative natural increase in 2024
-2. **Age Structure:** Average age 40.9 years, constrictive population pyramid, aging population
-3. **Fertility:** TFR of 1.0-1.45 children per woman (well below 2.1 replacement level)
+Comprehensive exploration of the UDHR, comparing it to the US Constitution and analyzing universal vs. culturally relative rights.
+
+**Files:**
+- **`UDHR_assignment.md`** - Complete assignment with structured questions and framework
+- **`UDHR_completion_guide.md`** - Detailed guidance for completing each section
+
+**Topics Covered:**
+- UDHR adoption history (December 10, 1948)
+- Rights comparison (UDHR vs US Constitution)
+- Positive vs negative rights
+- Political/civil vs economic/social rights
+- Current human rights issues analysis
+- Universal vs culturally relative rights debate
 
 ## Methodology
 
-This analysis follows the ERC (Evidence-Reasoning-Claim) framework, examining all available data objectively before determining the demographic classification.
+All analyses follow evidence-based frameworks:
+- **ERC Approach:** Evidence → Reasoning → Claim (for demographic analysis)
+- **Critical Analysis:** Factual research + personal reflection (for UDHR assignment)
 
 ## License
 
