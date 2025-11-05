@@ -1,0 +1,422 @@
+{
+  "title": "Flash Tide: A Sea Otter's Speed",
+  "format": "animated_short",
+  "duration_minutes": 10,
+  "characters": {
+    "protagonist": {
+      "name": "Finn 'Flash' Ripley",
+      "species": "Sea Otter",
+      "appearance": "Sleek dark brown fur, wearing crimson red Flash super suit with gold lightning bolt emblem across chest, white whiskers, athletic streamlined build, goggle-style mask, red cape that flows underwater",
+      "personality": "Quick-witted, heroic, protective of ocean life, determined, speed enthusiast",
+      "powers": "Super speed swimming, creates blue lightning trails underwater, can vibrate through obstacles"
+    },
+    "supporting_cast": {
+      "mentor": {
+        "name": "Captain Current",
+        "species": "Sea Lion",
+        "appearance": "Grey fur with silver streaks, weathered superhero suit with anchor emblem, wise eyes"
+      },
+      "villain": {
+        "name": "Dr. Undertow",
+        "species": "Giant Pacific Octopus",
+        "appearance": "Dark purple tentacles, mechanical enhancements, glowing green eyes, laboratory coat"
+      },
+      "sidekick": {
+        "name": "Spark",
+        "species": "Electric Eel",
+        "appearance": "Small, energetic, generates natural electricity, tiny red bandana"
+      },
+      "citizens": {
+        "description": "Various sea creatures living in the underwater city"
+      }
+    }
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "title": "Birth of the Flash Tide",
+      "duration_seconds": 90,
+      "time_of_day": "stormy_evening",
+      "camera_work": {
+        "opening_shot": "DRAMATIC WIDE - Lightning strikes ocean surface",
+        "movement": "Camera plunges through storm waves into depths",
+        "angles": [
+          "high_angle_storm",
+          "transition_through_surface",
+          "reveal_underwater_laboratory"
+        ],
+        "focal_points": "Lightning energy channeling through water, mysterious glowing chamber, Finn swimming toward light"
+      },
+      "lighting": {
+        "primary": "Electric blue lightning illumination",
+        "color_temperature": "7000K cool with warm red accents",
+        "rays": "Crackling energy beams piercing through water",
+        "atmospheric": "Turbulent particles, electrical charges visible in water",
+        "special_effects": "Blue lightning arcs, red suit glow, golden emblem shine"
+      },
+      "background": {
+        "elements": [
+          "abandoned underwater research station",
+          "floating debris",
+          "storm energy penetrating depths",
+          "mystical speed force chamber",
+          "coral formations"
+        ],
+        "detail_level": "Cinematic photorealistic with stylized superhero elements",
+        "color_palette": [
+          "electric blue",
+          "crimson red",
+          "gold accents",
+          "deep ocean navy",
+          "storm grey"
+        ]
+      },
+      "animation_style": "DC animated universe meets Pixar quality",
+      "key_moments": [
+        {
+          "timestamp": "0:15",
+          "action": "Finn discovers the red Flash suit floating in energy chamber"
+        },
+        {
+          "timestamp": "0:45",
+          "action": "Lightning strikes water surface, energy channels to Finn"
+        },
+        {
+          "timestamp": "1:15",
+          "action": "Transformation sequence - suit forms around Finn, blue lightning erupts"
+        }
+      ]
+    },
+    {
+      "scene_number": 2,
+      "title": "First Speed Trial",
+      "duration_seconds": 85,
+      "time_of_day": "dawn",
+      "camera_work": {
+        "shots": [
+          {
+            "type": "CLOSE-UP",
+            "subject": "Finn's eyes behind mask - determination mixed with uncertainty",
+            "movement": "Slow zoom on eyes, then RAPID PULL BACK"
+          },
+          {
+            "type": "TRACKING SHOT",
+            "subject": "Following Finn as he tests his speed",
+            "movement": "High-speed camera work, motion blur effects"
+          },
+          {
+            "type": "360_ROTATION",
+            "subject": "Finn vibrating in place, blue lightning circling",
+            "movement": "Slow-motion bullet-time effect"
+          }
+        ],
+        "special_techniques": "Speed ramping, particle tracking, lightning trail visualization"
+      },
+      "lighting": {
+        "primary": "Early morning underwater ambiance",
+        "color_temperature": "6000K with dynamic blue lightning flashes",
+        "rays": "Soft dawn light from surface mixing with electric blue trails",
+        "atmospheric": "Clean water with energy particle effects",
+        "special_effects": "Blue lightning continuously wrapping around Finn's body, red suit glowing, golden bolt emblem pulsing with speed"
+      },
+      "background": {
+        "elements": [
+          "open ocean training ground",
+          "rock formations for obstacles",
+          "kelp forest slalom course",
+          "underwater canyons",
+          "bioluminescent markers"
+        ],
+        "detail_level": "High detail with motion blur in high-speed sequences",
+        "color_palette": [
+          "morning blues",
+          "electric blue lightning",
+          "red Flash suit",
+          "gold highlights",
+          "green kelp"
+        ]
+      },
+      "animation_style": "Dynamic superhero action with fluid underwater physics",
+      "key_moments": [
+        {
+          "timestamp": "0:10",
+          "action": "Finn takes first tentative super-speed swim, blue lightning trail appears"
+        },
+        {
+          "timestamp": "0:35",
+          "action": "Speed increases - lightning intensifies, creating spectacular blue spiral around body"
+        },
+        {
+          "timestamp": "1:05",
+          "action": "Breaks speed barrier - massive blue lightning explosion, red suit blazing"
+        }
+      ],
+      "sound_design": {
+        "effects": [
+          "crackling electricity",
+          "rushing water",
+          "sonic boom underwater",
+          "lightning whoosh"
+        ],
+        "music": "Heroic orchestral with electronic elements"
+      }
+    },
+    {
+      "scene_number": 3,
+      "title": "City in Peril",
+      "duration_seconds": 70,
+      "time_of_day": "afternoon",
+      "camera_work": {
+        "opening_shot": "ESTABLISHING SHOT - Coral City, peaceful and bustling",
+        "movement": "Peaceful pan INTERRUPTED by sudden chaos",
+        "angles": [
+          "wide_city_view",
+          "panic_in_streets",
+          "villain_reveal",
+          "hero_arrival"
+        ],
+        "focal_points": "Citizens fleeing, Dr. Undertow's mechanical tentacles, Finn arriving in blur of red and blue"
+      },
+      "lighting": {
+        "primary": "Bright afternoon underwater city lights",
+        "color_temperature": "5500K shifting to ominous green (villain) and heroic blue (hero)",
+        "rays": "City bioluminescent lights, green villain energy, blue hero lightning",
+        "atmospheric": "Transitioning from clear to turbulent water",
+        "special_effects": "Dr. Undertow's green energy beams vs Finn's blue lightning aura"
+      },
+      "background": {
+        "elements": [
+          "underwater metropolitan city",
+          "coral skyscrapers",
+          "kelp gardens",
+          "floating transport vessels",
+          "citizen sea creatures",
+          "market squares",
+          "city plaza"
+        ],
+        "detail_level": "Highly detailed urban underwater environment",
+        "color_palette": [
+          "vibrant city colors",
+          "ominous villain green",
+          "heroic blue lightning",
+          "red Flash suit",
+          "coral oranges and pinks"
+        ]
+      },
+      "animation_style": "Epic superhero confrontation with detailed environmental destruction",
+      "key_moments": [
+        {
+          "timestamp": "0:20",
+          "action": "Dr. Undertow attacks with mechanical tentacles and green energy"
+        },
+        {
+          "timestamp": "0:45",
+          "action": "Finn arrives - red streak with blue lightning trail, dramatic landing"
+        },
+        {
+          "timestamp": "1:05",
+          "action": "Face-off - red-suited hero crackling with blue lightning vs green-glowing villain"
+        }
+      ]
+    },
+    {
+      "scene_number": 4,
+      "title": "Lightning Speed Battle",
+      "duration_seconds": 120,
+      "time_of_day": "afternoon_continuing",
+      "camera_work": {
+        "shots": [
+          {
+            "type": "HIGH_SPEED_CHASE",
+            "subject": "Finn circling Dr. Undertow at super speed",
+            "movement": "Spiral tracking shots, rapid cuts, slow-motion hero moments"
+          },
+          {
+            "type": "IMPACT_SHOTS",
+            "subject": "Close-ups of lightning-powered strikes",
+            "movement": "Slow-motion with speed ramp"
+          },
+          {
+            "type": "WIDE_AERIAL",
+            "subject": "Full battle choreography from above",
+            "movement": "Crane shot showing blue lightning patterns"
+          }
+        ],
+        "special_techniques": "Bullet-time, speed ramping, lightning trail CGI, particle physics simulation"
+      },
+      "lighting": {
+        "primary": "Dynamic battle lighting - constant blue electricity",
+        "color_temperature": "Extreme contrast between blue hero and green villain",
+        "rays": "Explosive light bursts from impacts",
+        "atmospheric": "Highly turbulent water, energy shockwaves visible",
+        "special_effects": "INTENSE blue lightning completely enveloping Finn's body, red suit glowing brighter with increased speed, gold emblem blazing, lightning chains extending from hands and feet, electrical aura pulsing with heartbeat"
+      },
+      "background": {
+        "elements": [
+          "destroyed city sections",
+          "fleeing civilians",
+          "collateral damage",
+          "energy impact craters",
+          "debris field"
+        ],
+        "detail_level": "Maximum detail in hero close-ups, motion blur in speed sequences",
+        "color_palette": [
+          "dominant electric blue",
+          "bright crimson red",
+          "gold energy bursts",
+          "ominous green",
+          "smoke and debris greys"
+        ]
+      },
+      "animation_style": "Premium superhero action - Spider-Verse meets DC animation quality",
+      "key_moments": [
+        {
+          "timestamp": "0:15",
+          "action": "Finn phases through tentacle attack, leaving blue lightning afterimage"
+        },
+        {
+          "timestamp": "0:45",
+          "action": "Creates blue lightning vortex by swimming in circles at super speed"
+        },
+        {
+          "timestamp": "1:20",
+          "action": "Channels all lightning into final punch - massive blue electrical explosion"
+        },
+        {
+          "timestamp": "1:55",
+          "action": "Victory pose - red suit pristine, blue lightning crackling around entire body"
+        }
+      ],
+      "sound_design": {
+        "effects": [
+          "continuous lightning crackling",
+          "whooshing water displacement",
+          "impact thunder",
+          "electrical surges",
+          "sonic booms"
+        ],
+        "music": "Intense action orchestral with electronic dubstep elements"
+      }
+    },
+    {
+      "scene_number": 5,
+      "title": "Hero of the Deep",
+      "duration_seconds": 75,
+      "time_of_day": "sunset",
+      "camera_work": {
+        "opening_shot": "CLOSE-UP on defeated Dr. Undertow being taken away",
+        "movement": "Pull back to reveal grateful citizens, pan to Finn",
+        "angles": [
+          "hero_standing_tall",
+          "admiring_crowd",
+          "sunset_silhouette",
+          "flying_away_shot"
+        ],
+        "focal_points": "Finn's heroic stance, cheering citizens, blue lightning gently flickering, red cape flowing"
+      },
+      "lighting": {
+        "primary": "Golden hour underwater - warm and triumphant",
+        "color_temperature": "3500K warm sunset tones with blue lightning accents",
+        "rays": "Beautiful sunset beams penetrating water, creating cathedral effect",
+        "atmospheric": "Clear, calm water with gentle blue electrical sparkles around hero",
+        "special_effects": "Soft blue lightning aura around Finn, red suit catching sunset light, gold emblem gleaming"
+      },
+      "background": {
+        "elements": [
+          "recovering city",
+          "grateful citizens gathering",
+          "sunset light shafts",
+          "floating celebration decorations",
+          "city returning to normal"
+        ],
+        "detail_level": "Beautiful, painterly quality with soft focus on background",
+        "color_palette": [
+          "warm sunset golds",
+          "soft blues",
+          "red Flash suit prominent",
+          "peaceful ocean tones",
+          "gentle blue lightning accents"
+        ]
+      },
+      "animation_style": "Inspirational superhero conclusion - Studio Ghibli meets DC heroics",
+      "key_moments": [
+        {
+          "timestamp": "0:20",
+          "action": "Citizens cheer, Finn waves humbly, blue lightning flickers around paw"
+        },
+        {
+          "timestamp": "0:45",
+          "action": "Captain Current appears, nods approval to new hero"
+        },
+        {
+          "timestamp": "1:10",
+          "action": "Finn speeds off into sunset - red streak with blue lightning trail dissolving into distance"
+        }
+      ],
+      "final_shot": {
+        "type": "AERIAL_PULLBACK",
+        "description": "Camera rises through ocean layers as blue lightning streak crosses frame, breaking surface into sunset sky",
+        "duration_seconds": 15,
+        "lighting": "Transition from underwater blue to surface orange/red sunset",
+        "end_frame": "Silhouette of otter in Flash suit against setting sun, blue lightning crackling"
+      }
+    }
+  ],
+  "visual_effects_specification": {
+    "lightning_effects": {
+      "color": "Electric blue (#00BFFF to #0080FF)",
+      "behavior": "Constantly flowing around Finn's entire body in organic patterns",
+      "intensity_levels": {
+        "idle": "Gentle flickering around suit seams and emblem",
+        "moving": "Active trails following movement, wrapping around limbs",
+        "high_speed": "Intense full-body envelope, lightning chains extending outward",
+        "maximum_power": "Explosive aura, electrical tendrils, screen-filling energy"
+      },
+      "rendering": "Volumetric particle system with subsurface scattering in water"
+    },
+    "suit_details": {
+      "material": "Crimson red (#DC143C) with metallic sheen",
+      "emblem": "Gold lightning bolt (#FFD700) with inner glow",
+      "cape": "Flowing red fabric, dynamic underwater physics",
+      "mask": "Sleek red with white eye pieces, aerodynamic design",
+      "highlights": "Gold trim on seams, reflective surfaces catch lighting"
+    },
+    "animation_techniques": [
+      "Speed motion blur with lightning trail persistence",
+      "Particle physics for water interaction",
+      "Subsurface scattering on otter fur visible through suit",
+      "Dynamic cloth simulation for cape",
+      "Energy emission from body during speed use",
+      "Impact ripples and shockwaves in water"
+    ]
+  },
+  "color_grading": {
+    "primary_palette": "Vibrant superhero - saturated reds and blues",
+    "contrast": "High contrast for costume visibility underwater",
+    "blue_lightning": "Dominant visual element - always present around hero",
+    "red_suit": "Bright and heroic - contrasts beautifully with ocean blues",
+    "mood": "Optimistic, heroic, energetic, inspiring"
+  },
+  "technical_specifications": {
+    "resolution": "4K (3840x2160)",
+    "frame_rate": "24fps standard, 60fps for high-speed sequences",
+    "render_engine": "Path-traced with real-time water simulation",
+    "particle_count": "High - especially for lightning effects",
+    "target_audience": "Family-friendly, ages 7+"
+  },
+  "themes": {
+    "primary": "Discovering your potential and using it for good",
+    "secondary": [
+      "Environmental protection",
+      "Speed and responsibility",
+      "Heroism in unexpected places",
+      "Ocean conservation"
+    ]
+  },
+  "merchandising_opportunities": {
+    "action_figures": "Flash Finn with lightning effects",
+    "costumes": "Red Flash suit for kids",
+    "accessories": "Light-up lightning bolt props",
+    "video_games": "Speed-based underwater adventure"
+  }
+}
