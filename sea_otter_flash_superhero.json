@@ -1,14 +1,14 @@
 {
   "title": "Flash Tide: A Sea Otter's Speed",
   "format": "animated_short",
-  "duration_minutes": 10,
+  "duration_minutes": 12.5,
   "characters": {
     "protagonist": {
       "name": "Finn 'Flash' Ripley",
       "species": "Sea Otter",
       "appearance": "Sleek dark brown fur, wearing crimson red Flash super suit with gold lightning bolt emblem across chest, white whiskers, athletic streamlined build, goggle-style mask, red cape that flows underwater",
       "personality": "Quick-witted, heroic, protective of ocean life, determined, speed enthusiast",
-      "powers": "Super speed swimming, creates blue lightning trails underwater, can vibrate through obstacles"
+      "powers": "Super speed swimming, creates blue lightning trails underwater, can vibrate through obstacles, can run fast enough to open dimensional portals, can survive and fly in space"
     },
     "supporting_cast": {
       "mentor": {
@@ -360,6 +360,138 @@
         "lighting": "Transition from underwater blue to surface orange/red sunset",
         "end_frame": "Silhouette of otter in Flash suit against setting sun, blue lightning crackling"
       }
+    },
+    {
+      "scene_number": 6,
+      "title": "Portal to the Cosmos - Flight Around the Sun",
+      "duration_seconds": 150,
+      "time_of_day": "transcendent",
+      "camera_work": {
+        "opening_shot": "EXTREME CLOSE-UP - Finn's determined eyes, then RAPID ZOOM OUT",
+        "movement": "Follows Finn as he accelerates to maximum speed, portal opens, transition to space",
+        "angles": [
+          "ground_level_speed_buildup",
+          "portal_formation_360",
+          "transition_through_portal",
+          "space_emergence_wide",
+          "orbital_tracking_shots",
+          "sun_approach_sequences",
+          "solar_orbit_spirals"
+        ],
+        "focal_points": "Speed building, portal opening with blue lightning, emergence into space, Earth in background, sun growing larger, orbital flight path with blue lightning trail",
+        "special_techniques": "Speed ramping, dimensional warp effects, zero-gravity physics simulation, lens flare management for sun, epic scale transitions"
+      },
+      "lighting": {
+        "primary": "Transitioning from Earth atmosphere to pure cosmic light",
+        "color_temperature": "Starts 6000K, shifts to 9000K+ in space, 6500K near sun with extreme brightness",
+        "rays": "Portal: swirling blue lightning vortex | Space: starfield clarity | Sun: massive solar rays and corona effects",
+        "atmospheric": "Earth atmosphere particles, then vacuum of space with cosmic dust, then solar plasma and corona",
+        "special_effects": "MAXIMUM blue lightning completely enveloping Finn's entire body as he runs, portal rimmed with crackling blue energy, lightning trail persists in space as glowing blue ribbon, red suit blazing against black of space, gold emblem shining like a star, solar light reflecting off suit creating spectacular visual, blue lightning intensifies near sun's heat and energy"
+      },
+      "background": {
+        "elements": [
+          "ocean surface starting point",
+          "dimensional portal - swirling blue energy vortex",
+          "Earth from low orbit perspective",
+          "Moon in distance",
+          "star field - Milky Way visible",
+          "sun growing from distant star to massive fireball",
+          "solar corona and prominences",
+          "solar flares erupting",
+          "space debris and asteroids",
+          "cosmic phenomenon"
+        ],
+        "detail_level": "Scientifically accurate space rendering with superhero spectacle, photorealistic celestial bodies, detailed solar surface",
+        "color_palette": [
+          "deep space black",
+          "electric blue lightning",
+          "crimson red suit",
+          "golden emblem and solar light",
+          "orange/yellow sun surface",
+          "white solar corona",
+          "Earth blues and greens",
+          "purple/pink cosmic nebulae in far background"
+        ]
+      },
+      "animation_style": "Interstellar-level space realism meets superhero grandeur - 2001: A Space Odyssey cinematography with Marvel cosmic scale",
+      "key_moments": [
+        {
+          "timestamp": "0:00-0:20",
+          "action": "Finn breaks surface of ocean, runs on water at incredible speed, blue lightning EXPLODING around entire body in massive arcs",
+          "camera": "Low angle tracking shot showing paws hitting water, each step creates blue lightning shockwave"
+        },
+        {
+          "timestamp": "0:20-0:35",
+          "action": "Speed reaches critical threshold - air around Finn tears apart, blue lightning swirling creates dimensional rift, circular portal opens with MASSIVE blue energy burst",
+          "camera": "360-degree rotation around portal formation, close-up of Finn's face showing awe and determination",
+          "vfx": "Portal edges crackling with blue electricity, interior shows swirling cosmic tunnel"
+        },
+        {
+          "timestamp": "0:35-0:50",
+          "action": "Finn dives through portal - elongated streak of red suit with blue lightning trail, kaleidoscope tunnel sequence, reality warping around him",
+          "camera": "POV shot from Finn's perspective, then external shot showing him as red/blue comet through dimensional space",
+          "vfx": "Time dilation effects, reality fracturing, blue lightning trailing behind like cosmic ribbon"
+        },
+        {
+          "timestamp": "0:50-1:05",
+          "action": "EMERGENCE INTO SPACE - Portal opens in low Earth orbit, Finn shoots out in explosion of blue lightning, first moment of weightlessness, cape billowing in zero-g",
+          "camera": "EPIC WIDE SHOT - Earth below, stars above, tiny red figure with blue lightning aura in center, then camera rushes to him",
+          "vfx": "Portal collapses behind him in spectacular blue lightning implosion, red suit stark against black space, blue lightning adapts to vacuum forming tight aura"
+        },
+        {
+          "timestamp": "1:05-1:20",
+          "action": "Finn orients himself in space, looks around at Earth, Moon, stars - moment of wonder, then focuses on the sun in distance, blue lightning pulses with determination",
+          "camera": "Slow rotation around Finn floating in space, close-ups of face showing awe, pull back to show scale of Earth behind him",
+          "lighting": "Earthlight on one side, sunlight on other, blue lightning providing third light source"
+        },
+        {
+          "timestamp": "1:20-1:35",
+          "action": "Finn begins flying toward sun - blue lightning propelling him forward, accelerates gradually, creating brilliant blue streak across space",
+          "camera": "Following shot from behind showing Earth shrinking, sun growing larger, blue lightning trail extending behind",
+          "vfx": "Speed increases visibly, motion blur, blue lightning trail persists in space like glowing highway"
+        },
+        {
+          "timestamp": "1:35-1:55",
+          "action": "APPROACHING THE SUN - massive fireball fills screen, Finn tiny red speck with blue lightning, heat and light intensifying, solar prominences erupting",
+          "camera": "Wide shot showing scale - sun massive, Finn tiny but visible due to blue lightning aura, side tracking shot",
+          "vfx": "Red suit reflecting intense solar light, blue lightning BLAZING brighter in response to sun's energy, gold emblem glowing intensely, protective energy shield forming from lightning"
+        },
+        {
+          "timestamp": "1:55-2:15",
+          "action": "ORBITAL FLIGHT BEGINS - Finn flies around sun's circumference at incredible speed, blue lightning trail creates complete circle, multiple orbits building up glowing blue rings around sun",
+          "camera": "Various angles: side view showing circular path, top-down showing spiral, close-up on Finn's face showing exhilaration, pull-back showing blue rings forming around sun",
+          "vfx": "Blue lightning trail persists, creating layered rings, solar corona interacting with lightning energy creating spectacular purple/blue fusion effects, red suit contrasting brilliantly against orange sun"
+        },
+        {
+          "timestamp": "2:15-2:25",
+          "action": "CLIMACTIC MOMENT - Finn completes final orbit at maximum speed, blue lightning rings around sun pulse and explode outward in spectacular display, Finn surrounded by INTENSE blue electrical storm, suit glowing red-hot, emblem blazing gold",
+          "camera": "Slow-motion sequence, multiple angles rapid cuts, final wide shot showing sun with dissipating blue energy and Finn silhouetted against solar disc",
+          "vfx": "Maximum visual spectacle - blue lightning explosion, solar flare response, cosmic energy release, reality-bending speed effects"
+        },
+        {
+          "timestamp": "2:25-2:30",
+          "action": "Finn hovers in space near sun, blue lightning calming to gentle aura, looks back toward Earth - a changed hero having touched the cosmos",
+          "camera": "Close-up on Finn's face through mask showing profound realization, pull back to hero shot with sun and Earth in frame",
+          "lighting": "Triumphant - blue lightning soft glow, red suit pristine, gold emblem shining, solar corona providing backlight"
+        }
+      ],
+      "sound_design": {
+        "effects": [
+          "building speed whoosh",
+          "dimensional portal tearing reality - deep bass rumble with high-pitched energy whine",
+          "silence of space with subtle cosmic hum",
+          "blue lightning crackling adapted to vacuum - more ethereal",
+          "solar wind and plasma sounds",
+          "speed acceleration doppler effects",
+          "cosmic energy discharges"
+        ],
+        "music": "Epic orchestral building to cosmic crescendo - Hans Zimmer Interstellar style blended with heroic superhero theme, electronic elements for space travel, triumphant fanfare for sun orbit completion"
+      },
+      "scientific_accuracy_notes": {
+        "physics": "Superhero logic applies - speed force protects from vacuum, radiation, heat",
+        "visual_accuracy": "Sun, Earth, Moon, stars rendered to scale and accurate appearance",
+        "artistic_license": "Blue lightning persists in vacuum (speed force energy), sound design for drama despite vacuum, Finn can breathe and move freely (suit powers)"
+      }
     }
   ],
   "visual_effects_specification": {
@@ -387,7 +519,13 @@
       "Subsurface scattering on otter fur visible through suit",
       "Dynamic cloth simulation for cape",
       "Energy emission from body during speed use",
-      "Impact ripples and shockwaves in water"
+      "Impact ripples and shockwaves in water",
+      "Dimensional portal creation with reality-warping effects",
+      "Zero-gravity physics for space sequences",
+      "Cosmic scale rendering - planets, stars, sun",
+      "Solar surface detail with prominences and corona",
+      "Lightning trail persistence in vacuum",
+      "Extreme lighting contrast for space environment"
     ]
   },
   "color_grading": {
@@ -410,7 +548,9 @@
       "Environmental protection",
       "Speed and responsibility",
       "Heroism in unexpected places",
-      "Ocean conservation"
+      "Ocean conservation",
+      "Pushing beyond limits - from ocean depths to cosmic heights",
+      "Wonder and exploration of the universe"
     ]
   },
   "merchandising_opportunities": {
