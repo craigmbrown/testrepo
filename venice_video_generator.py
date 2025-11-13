@@ -72,7 +72,7 @@ class VeniceVideoGenerator:
         try:
             import venice_ai
             if self.api_key:
-                self.client = venice_ai.Client(api_key=self.api_key)
+                self.client = venice_ai.VeniceClient(api_key=self.api_key)
                 logger.info("Venice AI client initialized successfully")
             else:
                 logger.warning("Cannot initialize Venice AI client without API key")
