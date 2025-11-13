@@ -1,0 +1,54 @@
+# Environment variables - NEVER commit API keys!
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Generated videos and outputs
+generated_videos/
+*.mp4
+*.mov
+*.avi
+
+# Logs
+*.log
+robo_video_maker.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Session data
+session_log_*.json

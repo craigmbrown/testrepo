@@ -1,0 +1,75 @@
+{
+  "video_settings": {
+    "models": ["sora-2", "veo-3.1", "kling-2.5-turbo"],
+    "default_model": "sora-2",
+    "durations": [4, 8, 12],
+    "default_duration": 8,
+    "aspect_ratios": ["16:9", "9:16", "1:1"],
+    "default_aspect_ratio": "16:9",
+    "resolution": "720p"
+  },
+  "generation_settings": {
+    "auto_mode": true,
+    "delay_between_videos": 60,
+    "max_videos_per_session": 10,
+    "output_directory": "generated_videos"
+  },
+  "prompt_categories": {
+    "nature": [
+      "A majestic waterfall cascading down moss-covered rocks in a lush rainforest",
+      "Golden hour sunset over rolling hills with wildflowers swaying in the breeze",
+      "Northern lights dancing across a starry arctic sky",
+      "Ocean waves crashing against dramatic coastal cliffs",
+      "A serene bamboo forest with sunlight filtering through the leaves"
+    ],
+    "urban": [
+      "Bustling neon-lit cyberpunk city street with flying vehicles",
+      "Time-lapse of a modern city skyline from day to night",
+      "Vintage steam train passing through an old European city",
+      "Drone view of a futuristic metropolis with holographic billboards",
+      "Rain-soaked city street with reflections of colorful lights"
+    ],
+    "fantasy": [
+      "A dragon soaring through clouds above a magical kingdom",
+      "Mystical floating islands connected by glowing bridges",
+      "Ancient wizard casting spells in a tower filled with magical artifacts",
+      "Enchanted forest with bioluminescent plants and fairy creatures",
+      "Portal opening to another dimension with swirling cosmic energy"
+    ],
+    "sci-fi": [
+      "Spaceship approaching a distant alien planet with twin suns",
+      "Futuristic laboratory with holographic displays and AI assistants",
+      "Robot army marching through a post-apocalyptic wasteland",
+      "Time traveler stepping through a portal of swirling energy",
+      "Underwater research station on an alien ocean world"
+    ],
+    "abstract": [
+      "Colorful ink drops spreading in water creating abstract patterns",
+      "Geometric shapes morphing and transforming in a kaleidoscope",
+      "Liquid metal flowing and forming intricate sculptures",
+      "Particles of light dancing and forming constellations",
+      "Psychedelic fractal patterns pulsating with vibrant colors"
+    ],
+    "animals": [
+      "Majestic lion walking through tall savanna grass at sunset",
+      "Pod of dolphins leaping through sparkling ocean waves",
+      "Hummingbird hovering near a vibrant tropical flower",
+      "Pack of wolves running through a snowy winter landscape",
+      "Colorful peacock displaying its magnificent tail feathers"
+    ],
+    "sports": [
+      "Soccer player scoring an incredible goal in slow motion",
+      "Surfer riding a massive wave at a tropical beach",
+      "Basketball player performing an epic slam dunk",
+      "Skateboarder landing a complex trick in an urban skate park",
+      "Formula 1 car racing through a challenging circuit turn"
+    ],
+    "food": [
+      "Chef preparing gourmet dish with flames and precise techniques",
+      "Chocolate melting in slow motion over fresh strawberries",
+      "Pizza being tossed in the air in a traditional Italian kitchen",
+      "Colorful sushi rolls being artfully arranged on a plate",
+      "Coffee being poured creating beautiful latte art"
+    ]
+  }
+}

@@ -222,3 +222,67 @@ This project is open source and available under the MIT License.
 5. Race and have fun!
 
 **Made with ❤️ for racing and soccer fans everywhere!**
+
+---
+
+## 🤖 Robotic Random Video Generator
+
+**NEW!** This repository also includes an automated AI video generation system powered by Venice AI.
+
+### What is it?
+
+The Robotic Random Video Generator is a Python-based automation tool that creates random, creative videos using Venice AI's state-of-the-art video generation models (Sora 2, Veo 3.1, Kling 2.5 Turbo).
+
+### Features
+
+- 🎬 Automated video generation with customizable delays
+- 🎨 8 diverse prompt categories (Nature, Urban, Fantasy, Sci-Fi, Abstract, Animals, Sports, Food)
+- 🤖 Fully automated or interactive modes
+- 📊 Session tracking and detailed statistics
+- 🎯 40+ creative prompts with enhancement system
+- ⚙️ Flexible JSON configuration
+
+### Quick Start
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Set up your Venice AI API key:**
+   ```bash
+   cp .env.example .env
+   # Edit .env and add your API key from https://venice.ai/api-beta
+   ```
+
+3. **Run the generator:**
+   ```bash
+   # Automated mode - generate 10 videos
+   python robo_video_maker.py --auto
+
+   # Interactive mode - full control
+   python robo_video_maker.py --interactive
+
+   # Single video generation
+   python robo_video_maker.py --single
+   ```
+
+### Full Documentation
+
+For complete documentation, see [VIDEO_GENERATOR_README.md](VIDEO_GENERATOR_README.md)
+
+### Example Usage
+
+```bash
+# Generate 5 videos with 30 second delay between each
+python robo_video_maker.py --auto --count 5 --delay 30
+
+# Generate a nature-themed video
+python robo_video_maker.py --single --category nature
+```
+
+---
+
+**Two projects in one repository:**
+- 🏁 **Soccer Sprint** - A futuristic racing game
+- 🎬 **Robo Video Maker** - AI-powered video generation
