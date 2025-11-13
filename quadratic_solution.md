@@ -104,3 +104,43 @@ x = ±√3
 ### Verification
 - When x = √3: 15 + 3(√3)² = 15 + 3(3) = 15 + 9 = 24 ✓
 - When x = -√3: 15 + 3(-√3)² = 15 + 3(3) = 15 + 9 = 24 ✓
+
+---
+
+## Problem 4
+Solve for all values of x in simplest form:
+```
+4(x² - 3) + 6 = 10
+```
+
+## Solution
+
+**Step 1:** Expand the left side
+```
+4x² - 12 + 6 = 10
+4x² - 6 = 10
+```
+
+**Step 2:** Add 6 to both sides
+```
+4x² = 10 + 6
+4x² = 16
+```
+
+**Step 3:** Divide both sides by 4
+```
+x² = 4
+```
+
+**Step 4:** Take the square root of both sides
+```
+x = ±√4
+x = ±2
+```
+
+## Answer
+**x = 2** or **x = -2**
+
+### Verification
+- When x = 2: 4(2² - 3) + 6 = 4(4 - 3) + 6 = 4(1) + 6 = 4 + 6 = 10 ✓
+- When x = -2: 4((-2)² - 3) + 6 = 4(4 - 3) + 6 = 4(1) + 6 = 4 + 6 = 10 ✓
