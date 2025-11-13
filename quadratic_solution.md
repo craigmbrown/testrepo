@@ -71,3 +71,36 @@ x = ±3
 ### Verification
 - When x = 3: 5(3² - 7) - 1 = 5(9 - 7) - 1 = 5(2) - 1 = 10 - 1 = 9 ✓
 - When x = -3: 5((-3)² - 7) - 1 = 5(9 - 7) - 1 = 5(2) - 1 = 10 - 1 = 9 ✓
+
+---
+
+## Problem 3
+Solve for all values of x in simplest form:
+```
+15 + 3x² = 24
+```
+
+## Solution
+
+**Step 1:** Subtract 15 from both sides
+```
+3x² = 24 - 15
+3x² = 9
+```
+
+**Step 2:** Divide both sides by 3
+```
+x² = 3
+```
+
+**Step 3:** Take the square root of both sides
+```
+x = ±√3
+```
+
+## Answer
+**x = √3** or **x = -√3**
+
+### Verification
+- When x = √3: 15 + 3(√3)² = 15 + 3(3) = 15 + 9 = 24 ✓
+- When x = -√3: 15 + 3(-√3)² = 15 + 3(3) = 15 + 9 = 24 ✓
