@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BATMAN vs ROBIN: CIVIL WAR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a1a;
+            font-family: 'Impact', 'Arial Black', sans-serif;
+            color: #fff;
+            overflow-x: hidden;
+        }
+
+        .comic-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .comic-title {
+            text-align: center;
+            font-size: 4em;
+            color: #ffd700;
+            text-shadow: 4px 4px 0 #000, -2px -2px 0 #ff0000;
+            margin: 40px 0;
+            letter-spacing: 4px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        .subtitle {
+            text-align: center;
+            font-size: 1.5em;
+            color: #ff0000;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .panel-row {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .panel {
+            background: #fff;
+            border: 8px solid #000;
+            padding: 20px;
+            position: relative;
+            min-height: 400px;
+            box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .panel.full {
+            grid-column: 1 / -1;
+        }
+
+        .panel-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .panel-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.15;
+            font-size: 15em;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 0;
+        }
+
+        .panel-text {
+            position: relative;
+            z-index: 1;
+            color: #000;
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 90%;
+        }
+
+        .caption {
+            background: #ffeb3b;
+            border: 3px solid #000;
+            padding: 10px 15px;
+            margin: 10px 0;
+            font-size: 0.9em;
+            color: #000;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+        }
+
+        .speech-bubble {
+            position: relative;
+            background: #fff;
+            border: 4px solid #000;
+            border-radius: 20px;
+            padding: 20px;
+            margin: 15px;
+            font-size: 1.1em;
+            color: #000;
+            max-width: 80%;
+            z-index: 1;
+        }
+
+        .speech-bubble.batman {
+            background: #2c3e50;
+            color: #fff;
+            border-color: #000;
+        }
+
+        .speech-bubble.robin {
+            background: #e74c3c;
+            color: #fff;
+            border-color: #000;
+        }
+
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border: 20px solid transparent;
+            border-top-color: #000;
+            border-bottom: 0;
+            margin-left: -20px;
+        }
+
+        .character-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .batman-color {
+            color: #1e3a8a;
+        }
+
+        .robin-color {
+            color: #dc2626;
+        }
+
+        .action-text {
+            font-size: 3em;
+            font-weight: bold;
+            color: #ff0000;
+            text-shadow: 3px 3px 0 #000;
+            transform: rotate(-5deg);
+            z-index: 2;
+            position: relative;
+        }
+
+        .visual-effect {
+            font-size: 10em;
+            opacity: 0.3;
+            position: absolute;
+            z-index: 0;
+        }
+
+        .panel.dark {
+            background: linear-gradient(135deg, #1a1a1a 0%, #4a4a4a 100%);
+        }
+
+        .panel.dark .panel-text,
+        .panel.dark .caption {
+            color: #fff;
+            background: rgba(0,0,0,0.7);
+        }
+
+        .versus {
+            text-align: center;
+            font-size: 6em;
+            color: #ff0000;
+            text-shadow: 5px 5px 0 #000;
+            margin: 40px 0;
+            animation: shake 0.5s infinite;
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0) rotate(0deg); }
+            25% { transform: translateX(-5px) rotate(-2deg); }
+            75% { transform: translateX(5px) rotate(2deg); }
+        }
+
+        .the-end {
+            text-align: center;
+            font-size: 4em;
+            color: #ffd700;
+            margin: 60px 0;
+            text-shadow: 4px 4px 0 #000;
+        }
+
+        .divider {
+            width: 100%;
+            height: 20px;
+            background: repeating-linear-gradient(
+                45deg,
+                #ffd700,
+                #ffd700 10px,
+                #000 10px,
+                #000 20px
+            );
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="comic-container">
+        <h1 class="comic-title">BATMAN vs ROBIN</h1>
+        <div class="subtitle">A DARK KNIGHT DIVIDED</div>
+
+        <div class="divider"></div>
+
+        <!-- Panel 1: The Beginning -->
+        <div class="panel-row">
+            <div class="panel full dark">
+                <div class="caption">GOTHAM CITY - THE BATCAVE - MIDNIGHT</div>
+                <div class="panel-content">
+                    <div class="panel-bg">🦇</div>
+                    <div class="panel-text">
+                        For years, they fought side by side. The Dark Knight and the Boy Wonder. Partners. Allies. Family.
+                        <br><br>
+                        But Gotham's corruption runs deeper than either imagined...
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 2: The Discovery -->
+        <div class="panel-row">
+            <div class="panel">
+                <div class="caption">ROBIN DISCOVERS THE TRUTH</div>
+                <div class="panel-content">
+                    <div class="visual-effect">💥</div>
+                    <div class="character-name robin-color">ROBIN</div>
+                    <div class="speech-bubble robin">
+                        Bruce... these files... you've been MANIPULATING criminals, using them as pawns! This isn't justice!
+                    </div>
+                    <div class="panel-text">
+                        Dick Grayson uncovers Batman's secret contingency plans - protocols to control Gotham's underworld from the shadows.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="caption">BATMAN'S DEFENSE</div>
+                <div class="panel-content">
+                    <div class="visual-effect">🦇</div>
+                    <div class="character-name batman-color">BATMAN</div>
+                    <div class="speech-bubble batman">
+                        Someone has to maintain ORDER. You're too young to understand what it takes to save this city!
+                    </div>
+                    <div class="panel-text">
+                        Batman's methods have grown darker. The line between hero and villain begins to blur.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 3: The Confrontation -->
+        <div class="panel-row">
+            <div class="panel full">
+                <div class="caption">THE PARTNERSHIP SHATTERS</div>
+                <div class="panel-content">
+                    <div class="action-text">CRASH!</div>
+                    <div class="panel-text" style="margin-top: 20px;">
+                        Robin's staff SLAMS against Batman's gauntlet. The sound echoes through the Batcave like thunder.
+                        <br><br>
+                        <strong>"I won't let you become what we fight against!"</strong> - Robin
+                        <br>
+                        <strong>"Then you've chosen your side."</strong> - Batman
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="versus">⚔️ VS ⚔️</div>
+
+        <!-- Panel 4: The War Begins -->
+        <div class="panel-row">
+            <div class="panel dark">
+                <div class="caption">BATMAN'S ALLIANCE</div>
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <strong>BATMAN'S FORCES:</strong>
+                        <br><br>
+                        🦇 Batman (The Dark Knight)
+                        <br>
+                        🔧 Alfred (Reluctant Support)
+                        <br>
+                        🃏 Talia al Ghul (Unexpected Ally)
+                        <br>
+                        🌃 Gotham's Shadows
+                        <br><br>
+                        <em>"Control through Fear"</em>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel dark">
+                <div class="caption">ROBIN'S RESISTANCE</div>
+                <div class="panel-content">
+                    <div class="panel-text">
+                        <strong>ROBIN'S FORCES:</strong>
+                        <br><br>
+                        🎯 Robin (The Boy Wonder)
+                        <br>
+                        🦇👧 Batgirl (Barbara Gordon)
+                        <br>
+                        ❓ The Question (Victor Sage)
+                        <br>
+                        👮 Commissioner Gordon
+                        <br><br>
+                        <em>"Justice through Truth"</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <!-- Panel 5: First Battle -->
+        <div class="panel-row">
+            <div class="panel full">
+                <div class="caption">ACE CHEMICALS - THE FIRST CLASH</div>
+                <div class="panel-content">
+                    <div class="action-text" style="font-size: 4em;">BOOM! 💥 CRASH! ⚡</div>
+                    <div class="panel-text" style="margin-top: 30px;">
+                        Chemical vats EXPLODE as Robin's acrobatic assault meets Batman's tactical defense!
+                        <br><br>
+                        Years of training together means they know each other's every move.
+                        <br>
+                        This makes them perfect enemies.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 6: Emotional Core -->
+        <div class="panel-row">
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="visual-effect">💔</div>
+                    <div class="speech-bubble robin">
+                        You took me in when I lost my parents! You taught me that we fight for PEOPLE, not power!
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-content">
+                    <div class="visual-effect">🌑</div>
+                    <div class="speech-bubble batman">
+                        And I WON'T lose you like I lost them! Even if you hate me... I'll keep you safe my way!
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 7: Escalation -->
+        <div class="panel-row">
+            <div class="panel full dark">
+                <div class="caption">GOTHAM DIVIDED</div>
+                <div class="panel-content">
+                    <div class="panel-text">
+                        The war spills into the streets. East Gotham falls under Robin's protection - transparent, heroic, hopeful.
+                        <br><br>
+                        West Gotham bows to Batman's shadow - efficient, fearful, controlled.
+                        <br><br>
+                        The citizens must choose: <span class="robin-color">HOPE</span> or <span class="batman-color">ORDER</span>?
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 8: The Turning Point -->
+        <div class="panel-row">
+            <div class="panel full">
+                <div class="caption">WAYNE TOWER - THE FINAL CONFRONTATION</div>
+                <div class="panel-content">
+                    <div class="action-text">SKRAAASH!</div>
+                    <div class="panel-text" style="margin-top: 20px;">
+                        They meet atop Wayne Tower. Rain pours. Lightning flashes.
+                        <br><br>
+                        Batman: <em>"You can't win, Dick. I have contingencies for everything."</em>
+                        <br><br>
+                        Robin: <em>"I know, Bruce. You taught me to always have a plan."</em>
+                        <br><br>
+                        Robin reveals his ace: He's leaked Batman's protocols to the Justice League.
+                        <br>
+                        Superman arrives. Wonder Woman. The Flash.
+                        <br><br>
+                        <strong>They've come to intervene.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 9: The Resolution -->
+        <div class="panel-row">
+            <div class="panel dark">
+                <div class="caption">JUDGMENT</div>
+                <div class="panel-content">
+                    <div class="panel-text">
+                        Superman places a hand on Batman's shoulder.
+                        <br><br>
+                        <strong>"Bruce... look at what you've become."</strong>
+                        <br><br>
+                        Batman sees his reflection in the rain-soaked glass.
+                        <br>
+                        A dark figure consumed by control.
+                        <br>
+                        Just like his enemies.
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="caption">REDEMPTION?</div>
+                <div class="panel-content">
+                    <div class="panel-text">
+                        Batman's fist unclenches.
+                        <br><br>
+                        <strong>"I... I thought I was protecting you."</strong>
+                        <br><br>
+                        Robin steps forward.
+                        <br><br>
+                        <strong>"Then protect me by trusting me. Be my partner again. Not my controller."</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Panel 10: Epilogue -->
+        <div class="panel-row">
+            <div class="panel full dark">
+                <div class="caption">ONE MONTH LATER - THE BATCAVE</div>
+                <div class="panel-content">
+                    <div class="panel-bg">🌅</div>
+                    <div class="panel-text">
+                        Batman destroys the shadow protocols. One by one, the files burn.
+                        <br><br>
+                        Robin watches, staff in hand, but relaxed.
+                        <br><br>
+                        They work side by side again, but different now.
+                        <br>
+                        Equals. Not master and apprentice.
+                        <br><br>
+                        The civil war is over.
+                        <br>
+                        But the scars remain.
+                        <br><br>
+                        <em>Trust must be rebuilt... one night at a time.</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="the-end">
+            TO BE CONTINUED...
+            <br>
+            <span style="font-size: 0.5em; color: #999;">When allies become enemies, can they ever truly return?</span>
+        </div>
+
+        <div style="text-align: center; padding: 40px; color: #666; font-family: Arial;">
+            <p>A Tale of Trust, Betrayal, and Redemption</p>
+            <p>🦇 © 2025 🦇</p>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactivity - panels fade in as you scroll
+        const panels = document.querySelectorAll('.panel');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '0';
+                    entry.target.style.transform = 'translateY(20px)';
+                    entry.target.style.transition = 'all 0.6s ease-out';
+
+                    setTimeout(() => {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }, 100);
+                }
+            });
+        }, { threshold: 0.1 });
+
+        panels.forEach(panel => observer.observe(panel));
+    </script>
+</body>
+</html>
